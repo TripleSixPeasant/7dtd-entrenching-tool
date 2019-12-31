@@ -8,6 +8,10 @@
 - Review recipes to include `resourceMechanicalParts`
 - Iron - use auto craft time
 - Steel - use auto craft time
+- Iron - unlock with `perkMiner69r` and `meleeToolIronSetSchematic`
+- Steel - unlock with `meleeToolSteelSetSchematic`
+- Change dropped model (steel shovel, 75% size)
 
 ### Removed
 - Iron - workbench requirement
+- Item `Entrenching Tool Schematic`
