@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
 	<append xpath="/recipes">
-        <recipe name="meleeToolEtoolIron" count="1" craft_area="workbench" tags="learnable,perkMiner69r" craft_time="180">
-            <ingredient name="resourceForgedIron" count="30"/>
+        <recipe name="meleeToolEtoolIron" count="1" tags="learnable,perkMiner69r">
+            <ingredient name="resourceForgedIron" count="28"/>
+            <ingredient name="resourceMechanicalParts" count="2"/>
             <ingredient name="resourceLeather" count="2"/>
-            <ingredient name="resourceDuctTape" count="4"/>
+            <ingredient name="resourceDuctTape" count="2"/>
             <effect_group>
-                <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedIron,resourceLeather,resourceDuctTape"/>
+                <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedIron,resourceMechanicalParts,resourceLeather,resourceDuctTape"/>
             </effect_group>
         </recipe>
-        <recipe name="meleeToolEtoolSteel" count="1" craft_area="workbench" tags="learnable,perkMiner69r" craft_time="180">
-            <ingredient name="meleeToolAllSteelParts" count="7"/>
-            <ingredient name="resourceForgedSteel" count="15"/>
-            <ingredient name="resourceLeather" count="3"/>
-            <ingredient name="resourceDuctTape" count="6"/>
+        <recipe name="meleeToolEtoolSteel" count="1" craft_area="workbench" tags="learnable,perkMiner69r">
+             <ingredient name="meleeToolAllSteelParts" count="7"/>
+             <ingredient name="resourceForgedSteel" count="14"/>
+             <ingredient name="resourceMechanicalParts" count="3"/>
+             <ingredient name="resourceLeather" count="3"/>
+             <ingredient name="resourceDuctTape" count="3"/>
             <effect_group>
-                <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="meleeToolAllSteelParts,resourceForgedSteel,resourceLeather,resourceDuctTape"/>
+                <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="meleeToolAllSteelParts,resourceForgedSteel,resourceMechanicalParts,resourceLeather,resourceDuctTape"/>
             </effect_group>
         </recipe>
         <recipe name="Entrenching Tool Schematic" count="1" tags="learnable">
@@ -23,3 +25,33 @@
         </recipe>
     </append>
 </configs>
+
+<!--
+Revised recipe:
+    Iron:
+        resourceForgedIron: 28 (40% more)
+        resourceMechanicalParts: 2 (for moving parts)
+        resourceLeather: 2 (same)
+        resourceDuctTape: 2 (same)
+
+    Steel:
+        meleeToolAllSteelParts: 7 (40% more)
+        resourceForgedSteel: 14 (40% more)
+        resourceMechanicalParts: 3 (for moving parts)
+        resourceLeather: 3 (same)
+        resourceDuctTape: 3 (same)
+
+Fireaxe / Pickaxe:
+    Iron:
+        resourceForgedIron: 20
+        resourceWood: 10
+        resourceLeather: 2
+        resourceDuctTape: 2
+
+    Steel:
+        meleeToolAllSteelParts: 5
+        resourceForgedSteel: 10
+        resourceWood: 10
+        resourceLeather: 3
+        resourceDuctTape: 3
+-->

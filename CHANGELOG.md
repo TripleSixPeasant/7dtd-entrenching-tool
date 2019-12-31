@@ -5,3 +5,9 @@
 
 ### Changed
 - Change item names to `meleeToolEtoolIron` and `meleeToolEtoolSteel`
+- Review recipes to include `resourceMechanicalParts`
+- Iron - use auto craft time
+- Steel - use auto craft time
+
+### Removed
+- Iron - workbench requirement
