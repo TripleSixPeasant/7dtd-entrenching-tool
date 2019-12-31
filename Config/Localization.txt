@@ -1,0 +1,5 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+meleeToolEtoolIron,items,Tool,--,Iron Entrenching Tool,,,,,
+meleeToolEtoolIronDesc,items,Tool,--,"The entrenching tool is an all-in-one tool (axe/pickaxe/shovel) that performs better than the wrong tool, but not as well as the right tool.\n\nRepair with a Repair Kit.\nScrap to Iron.",,,,,
+meleeToolEtoolSteel,items,Tool,--,Steel Entrenching Tool,,,,,
+meleeToolEtoolSteelDesc,items,Tool,--,"The entrenching tool is an all-in-one tool (axe/pickaxe/shovel) that performs better than the wrong tool, but not as well as the right tool.\n\nRepair with a Repair Kit.\nScrap to Steel Tool parts.",,,,,

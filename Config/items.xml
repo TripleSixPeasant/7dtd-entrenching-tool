@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
 	<append xpath="/items">
-        <item name="Iron Entrenching Tool">
+        <item name="meleeToolEtoolIron">
             <property name="Extends" value="meleeToolFireaxeIron"/>
             <property name="CustomIcon" value="entrenchingToolIron"/>
+            <property name="DescriptionKey" value="meleeToolEtoolIronDesc"/>
             <property name="Meshfile" value="#Other/Items?Tools/shovel_steelPrefab.prefab"/>
             <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
             <property name="Material" value="Mmetal"/>
@@ -35,7 +36,7 @@
                 <property name="GrazeEnd" value=".5"/>
                 <property name="UseGrazingHits" value="true"/>
             </property>
-            <effect_group name="Iron Entrenching Tool">
+            <effect_group name="meleeToolEtoolIron">
                 <passive_effect name="EntityDamage" operation="base_set" value="12"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="37"/>
                 <passive_effect name="AttacksPerMinute" operation="base_set" value="65"/>
@@ -67,9 +68,10 @@
                 <passive_effect name="StaminaLoss" operation="base_add" value="40" tags="secondary"/>
             </effect_group>
         </item>
-        <item name="Steel Entrenching Tool">
-            <property name="Extends" value="Iron Entrenching Tool"/>
+        <item name="meleeToolEtoolSteel">
+            <property name="Extends" value="meleeToolEtoolIron"/>
             <property name="CustomIcon" value="entrenchingToolSteel"/>
+            <property name="DescriptionKey" value="meleeToolEtoolSteelDesc"/>
             <property name="Material" value="MmeleeToolAllSteel"/>
             <property name="Meshfile" value="#Other/Items?Tools/shovel_steelPrefab.prefab"/>
             <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -77,7 +79,7 @@
             <property name="SoundDestroy" value="metaldestroy1"/>
             <property name="EconomicValue" value="800"/>
             <property name="Group" value="Tools/Traps"/>
-            <effect_group name="Steel Entrenching Tool">
+            <effect_group name="meleeToolEtoolSteel">
                 <passive_effect name="EntityDamage" operation="base_set" value="23"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="69"/>
                 <passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>
@@ -113,11 +115,11 @@
             <property name="Extends" value="schematicMaster"/>
             <property name="CreativeMode" value="Player"/>
             <property name="CustomIcon" value="entrenchingToolSteel"/>
-            <property name="Unlocks" value="Iron Entrenching Tool"/>
-            <property name="DescriptionKey" value="Unlocks crafting recipes for iron and steel entrenching tools."/>
+            <property name="Unlocks" value="meleeToolEtoolIron"/>
+            <property name="DescriptionKey" value="Unlocks crafting recipes for iron and meleeToolEtoolSteels."/>
             <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Iron Entrenching Tool" operation="set" value="1"/>
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Steel Entrenching Tool" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolEtoolIron" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolEtoolSteel" operation="set" value="1"/>
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Entrenching Tool Schematic" operation="set" value="1"/>
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
             </effect_group>

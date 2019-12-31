@@ -12,13 +12,13 @@
         <item name="Entrenching Tool Schematic"/>
     </append>
     <append xpath="lootcontainers/lootgroup[@name='groupQuestTools']">
-        <item name="Iron Entrenching Tool" loot_prob_template="GradeBLoot"/>
-        <item name="Steel Entrenching Tool" loot_prob_template="GradeCLoot"/>
+        <item name="meleeToolEtoolIron" loot_prob_template="GradeBLoot"/>
+        <item name="meleeToolEtoolSteel" loot_prob_template="GradeCLoot"/>
     </append>
     <append xpath="lootcontainers/lootgroup[@name='rareTools']">
-        <item name="Steel Entrenching Tool" prob="0.75"/>
+        <item name="meleeToolEtoolSteel" prob="0.75"/>
     </append>
     <append xpath="lootcontainers/lootgroup[@name='tools']">
-        <item name="Iron Entrenching Tool"/>
+        <item name="meleeToolEtoolIron"/>
     </append>
 </configs>
