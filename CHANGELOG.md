@@ -1,4 +1,15 @@
 # Changelog
+## [1.2.0] - 2020-01-01
+### Added
+- Iron - workbench requirement
+
+### Changed
+- Loot containers and chances
+- Unlocks at `perkMiner69r` L3
+- Change `perkMiner69r` L3 description
+
+---
+
 ## [1.1.0] - 2019-12-31
 ### Added
 - Localized Name and Description (eng only)

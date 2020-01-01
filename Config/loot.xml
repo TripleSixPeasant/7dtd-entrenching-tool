@@ -6,11 +6,15 @@
 	</append>
 
 	<append xpath="lootcontainers/lootgroup[@name='rareTools']">
-		<item name="meleeToolEtoolSteel" prob="0.75"/>
+		<item name="meleeToolEtoolSteel" prob="0.5" />
 	</append>
 
 	<append xpath="lootcontainers/lootgroup[@name='tools']">
-		<item name="meleeToolEtoolIron"/>
+		<item name="meleeToolEtoolIron" prob="0.75" />
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='workingStiffs']">
+		<item name="meleeToolEtoolIron" prob="0.75" />
 	</append>
 
 </configs>

@@ -1,5 +1,6 @@
-Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
-meleeToolEtoolIron,items,Tool,--,Iron Entrenching Tool,,,,,
-meleeToolEtoolIronDesc,items,Tool,--,"The entrenching tool is an all-in-one tool (axe/pickaxe/shovel) that performs better than the wrong tool, but not as well as the right tool.\n\nRepair with a Repair Kit.\nScrap to Iron.",,,,,
-meleeToolEtoolSteel,items,Tool,--,Steel Entrenching Tool,,,,,
-meleeToolEtoolSteelDesc,items,Tool,--,"The entrenching tool is an all-in-one tool (axe/pickaxe/shovel) that performs better than the wrong tool, but not as well as the right tool.\n\nRepair with a Repair Kit.\nScrap to Steel Tool parts.",,,,,
+Key,Source,Context,Changes,English
+meleeToolEtoolIron,items,Tool,--,Iron Entrenching Tool
+meleeToolEtoolIronDesc,items,Tool,--,"The entrenching tool is an all-in-one tool (axe/pickaxe/shovel) that performs better than the wrong tool, but not as well as the right tool.\n\nRepair with a Repair Kit.\nScrap to Iron."
+meleeToolEtoolSteel,items,Tool,--,Steel Entrenching Tool
+meleeToolEtoolSteelDesc,items,Tool,--,"The entrenching tool is an all-in-one tool (axe/pickaxe/shovel) that performs better than the wrong tool, but not as well as the right tool.\n\nRepair with a Repair Kit.\nScrap to Steel Tool parts."
+perkMiner69rRank3LongDesc,progression,Perk,666Changed,"You are now a professional miner or what they called muckmen back in the day. Craft iron entrenching tools, quality 4 good tools, increase tool damage by 30% and block damage by 90%."

@@ -2,7 +2,7 @@
 
 	<append xpath="/recipes">
 
-		<recipe name="meleeToolEtoolIron" count="1" tags="learnable,perkMiner69r">
+		<recipe name="meleeToolEtoolIron" count="1" craft_area="workbench" tags="perkMiner69r,learnable,workbenchCrafting">
 			<ingredient name="resourceForgedIron" count="28"/>
 			<ingredient name="resourceMechanicalParts" count="2"/>
 			<ingredient name="resourceLeather" count="2"/>
@@ -12,7 +12,7 @@
 			</effect_group>
 		</recipe>
 
-		<recipe name="meleeToolEtoolSteel" count="1" craft_area="workbench" tags="learnable,perkMiner69r">
+		<recipe name="meleeToolEtoolSteel" count="1" craft_area="workbench" tags="perkMiner69r,learnable,workbenchCrafting">
 			 <ingredient name="meleeToolAllSteelParts" count="7"/>
 			 <ingredient name="resourceForgedSteel" count="14"/>
 			 <ingredient name="resourceMechanicalParts" count="3"/>
