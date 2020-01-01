@@ -4,7 +4,8 @@
 
 		<item name="meleeToolEtoolIron">
 			<property name="Extends" value="meleeToolFireaxeIron"/>
-			<property name="CustomIcon" value="entrenchingToolIron"/>
+			<property name="CustomIcon" value="666_meleeToolEtoolIron"/>
+			<property name="CustomIconTint" value="d67272"/>
 			<property name="DescriptionKey" value="meleeToolEtoolIronDesc"/>
 			<property name="Meshfile" value="#Other/Items?Tools/shovel_steelPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Tools/shovel_steelPrefab.prefab"/>
@@ -73,7 +74,8 @@
 
 		<item name="meleeToolEtoolSteel">
 			<property name="Extends" value="meleeToolEtoolIron"/>
-			<property name="CustomIcon" value="entrenchingToolSteel"/>
+			<property name="CustomIcon" value="666_meleeToolEtoolIron"/>
+			<property name="CustomIconTint" value="b5b5ff"/>
 			<property name="DescriptionKey" value="meleeToolEtoolSteelDesc"/>
 			<property name="Material" value="MmeleeToolAllSteel"/>
 			<property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>

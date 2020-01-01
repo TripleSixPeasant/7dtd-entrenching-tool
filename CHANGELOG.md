@@ -7,6 +7,10 @@
 - Loot containers and chances
 - Unlocks at `perkMiner69r` L3
 - Change `perkMiner69r` L3 description
+- Iron icon and tints
+
+### Removed
+- Steel icon
 
 ---
 
