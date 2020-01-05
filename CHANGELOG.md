@@ -1,4 +1,10 @@
 # Changelog
+## [1.2.1] - 2020-01-06
+### Changed
+- Tweak loot table probabilities
+
+---
+
 ## [1.2.0] - 2020-01-01
 ### Added
 - Iron - workbench requirement
